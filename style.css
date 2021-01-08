@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'outrun_futureregular';
+    src: url('outrun_future-webfont.woff2') format('woff2'),
+         url('outrun_future-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+
+padding: 0;
+box-sizing: border-box;
+background: black;
+color: white ;
+font-family: 'Teko', sans-serif;
+}
+
+body {
+width: 100%;
+}
+
+.main {
+width: 100%;
+max-width: auto;
+background-color: transparent;
+position: relative;
+overflow: initial;
+}
+
+.main-img {
+background-color: transparent;
+width: 100%;
+max-width: auto;
+height: auto;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+position: relative;
+overflow: visible;
+
+}
+.main-img img{
+width: 100%;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+position: absolute;
+overflow: hidden;
+margin-block-start: -1.5em;
+}
+
+.header {
+width: 90%;
+text-decoration: none;
+list-style: none;
+}
+
+
+.header-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: -25px;
+margin-bottom: 3px;
+margin-left: -200px;
+}
+
+.header-container li a {
+text-decoration: none;
+transition: all 0.4s;
+}
+
+.sesgoabajo{
+background-color: transparent;
+position: absolute;
+bottom: 0;
+left: 0;
+border-width: 0 0 30vh 120vw;
+border-style: solid;
+border-color: transparent transparent black transparent
+}
+
+.videos-nuevos {
+margin-top: 12em;
+}
+
+.header-container li a:hover {
+    color: rgb(119, 119, 119) ;
+} 
+
+.logo img {
+max-width: 60px;
+border-radius: 100%;
+margin-bottom: 0.8em;
+}
+
+.main{
+    box-sizing: content-box;
+    align-items: center;
+
+}
+
+.main h1 {
+position: relative;
+width: fit-content;
+text-align: center;
+margin: auto;
+font-family: 'outrun_futureregular';
+font-weight: normal;
+font-style: normal;
+font-size: 15rem;
+color:rgb(207, 10, 10);
+background-color: transparent;
+text-shadow: 8px 2px 2px rgba(0, 0, 0, 0.897);
+}
+
+.main h3 {
+font-size: 8rem;
+color:blanchedalmond;
+text-shadow: black;
+text-align: center;
+background-color: transparent;
+position: relative;
+top: -1em;
+
+}
+
+.videos-nuevos div iframe{
+display: grid;
+margin: 10px auto;
+align-items: center;
+
+
+}
+
+.titulo-video {
+font-size: 3rem;
+margin: 2em 2em;
+text-align-last: center;
+
+}
+
+.lista-spotify-titulo {
+font-size: 3rem;
+margin: 3em 3em;
+text-align-last: center;
+}
+
+.lista-spotify-temas {
+display: grid;
+align-items: center;
+
+}
+
+.lista-spotify-temas iframe {
+    display: grid;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.footer-texto {
+margin: 10px 0;
+font-size: 2rem;
+text-align-last: center;
+}
+
+
+.footer-container-item {
+width: 30%;
+margin: 10px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+    .footer-container-item i{
+    margin: 10px;
+    transition: all 0.5s;
+    margin-bottom: 1em;
+    }
+
+        .footer-container-item i:hover {
+        color: rgb(119, 119, 119);  
+        }
