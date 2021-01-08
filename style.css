@@ -7,7 +7,6 @@
 
 }
 * {
-
 padding: 0;
 box-sizing: border-box;
 background: black;
@@ -15,9 +14,7 @@ color: white ;
 font-family: 'Teko', sans-serif;
 }
 
-body {
-width: 100%;
-}
+body {width: 100%;}
 
 .main {
 width: 100%;
@@ -37,8 +34,8 @@ background-position: center;
 background-attachment: fixed;
 position: relative;
 overflow: visible;
-
 }
+
 .main-img img{
 width: 100%;
 background-size: cover;
@@ -80,9 +77,7 @@ border-style: solid;
 border-color: transparent transparent black transparent
 }
 
-.videos-nuevos {
-margin-top: 12em;
-}
+.videos-nuevos {margin-top: 12em;}
 
 .header-container li a:hover {
     color: rgb(119, 119, 119) ;
@@ -97,7 +92,6 @@ margin-bottom: 0.8em;
 .main{
     box-sizing: content-box;
     align-items: center;
-
 }
 
 .main h1 {
@@ -122,22 +116,18 @@ text-align: center;
 background-color: transparent;
 position: relative;
 top: -1em;
-
 }
 
 .videos-nuevos div iframe{
 display: grid;
 margin: 10px auto;
 align-items: center;
-
-
 }
 
 .titulo-video {
 font-size: 3rem;
 margin: 2em 2em;
 text-align-last: center;
-
 }
 
 .lista-spotify-titulo {
@@ -149,7 +139,6 @@ text-align-last: center;
 .lista-spotify-temas {
 display: grid;
 align-items: center;
-
 }
 
 .lista-spotify-temas iframe {
@@ -166,8 +155,8 @@ text-align-last: center;
 
 
 .footer-container-item {
-width: 30%;
-margin: 10px auto;
+width: 100%;
+margin: auto;
 display: flex;
 justify-content: space-between;
 align-items: center;
