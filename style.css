@@ -8,27 +8,31 @@
 }
 * {
 padding: 0;
+margin: 0;
 box-sizing: border-box;
-background: black;
 color: white ;
 font-family: 'Teko', sans-serif;
 }
 
-body {width: 100%;}
+body {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 .main {
 width: 100%;
-max-width: auto;
 background-color: transparent;
 position: relative;
-overflow: initial;
+
 }
 
 .main-img {
 background-color: transparent;
 width: 100%;
 max-width: auto;
-height: auto;
+min-height: auto;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -47,22 +51,28 @@ margin-block-start: -1.5em;
 }
 
 .header {
-width: 90%;
+background-color: rgb(29, 29, 29);
+padding: 0.2em;
+z-index: 1;
+width: 100%;
+position: fixed;
 text-decoration: none;
 list-style: none;
 }
 
 
 .header-container {
+background-color: transparent;
 display: flex;
 justify-content: space-between;
+width: 50%;
+margin: auto;
 align-items: center;
-margin-top: -25px;
-margin-bottom: 3px;
-margin-left: -200px;
 }
 
 .header-container li a {
+background-color: transparent;
+font-size: 1.5rem;
 text-decoration: none;
 transition: all 0.4s;
 }
@@ -70,24 +80,19 @@ transition: all 0.4s;
 .sesgoabajo{
 background-color: transparent;
 position: absolute;
-bottom: 0;
+bottom: 4em;
 left: 0;
-border-width: 0 0 30vh 120vw;
+border-width: 10em 0 20vh 100vw;
 border-style: solid;
 border-color: transparent transparent black transparent
 }
 
-.videos-nuevos {margin-top: 12em;}
+.videos-nuevos {margin-top: 15em;}
 
 .header-container li a:hover {
-    color: rgb(119, 119, 119) ;
+    color:rgb(207, 10, 10);
 } 
 
-.logo img {
-max-width: 60px;
-border-radius: 100%;
-margin-bottom: 0.8em;
-}
 
 .main{
     box-sizing: content-box;
@@ -95,6 +100,7 @@ margin-bottom: 0.8em;
 }
 
 .main h1 {
+top: -1.5rem;
 position: relative;
 width: fit-content;
 text-align: center;
@@ -102,7 +108,7 @@ margin: auto;
 font-family: 'outrun_futureregular';
 font-weight: normal;
 font-style: normal;
-font-size: 15rem;
+font-size: 15em;
 color:rgb(207, 10, 10);
 background-color: transparent;
 text-shadow: 8px 2px 2px rgba(0, 0, 0, 0.897);
@@ -115,7 +121,7 @@ text-shadow: black;
 text-align: center;
 background-color: transparent;
 position: relative;
-top: -1em;
+
 }
 
 .videos-nuevos div iframe{
@@ -148,26 +154,28 @@ align-items: center;
 }
 
 .footer-texto {
-margin: 10px 0;
 font-size: 2rem;
 text-align-last: center;
 }
 
+.footer {
+width: 100%;
+margin: 1em; 
+}
 
 .footer-container-item {
-width: 100%;
-margin: auto;
 display: flex;
 justify-content: space-between;
+width: 50%;
+margin: auto;
 align-items: center;
 }
 
-    .footer-container-item i{
-    margin: 10px;
-    transition: all 0.5s;
-    margin-bottom: 1em;
-    }
+.footer-container-item i{
+transition: all 0.5s;
+}
 
-        .footer-container-item i:hover {
-        color: rgb(119, 119, 119);  
-        }
+.footer-container-item i:hover {
+color: rgb(119, 119, 119);  
+}
+
